@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Express Skills</title>
+        <link rel='stylesheet' href='/stylesheets/style.css' />
+
+    </head>
+    <body>
+        <h1>New Skill</h1>
+        <form action="/skills" method="POST" autocomplete="off">
+            <input type="text" name="name">
+            Level:
+            <input type="radio" id="1" name="level" value="1/5" checked>
+            <label for="huey">1</label>
+            <input type="radio" id="2" name="level" value="2/5">
+            <label for="dewey">2</label>
+            <input type="radio" id="3" name="level" value="3/5">
+            <label for="louie">3</label>
+            <input type="radio" id="4" name="level" value="4/5">
+            <label for="dewey">4</label>
+            <input type="radio" id="5" name="level" value="5/5">
+            <label for="louie">5</label>
+            <br/>
+            <button type="submit">Save Skill</button>
+        </form>
+    </body>
+</html>
