@@ -49,8 +49,3 @@ function update(req,res){
     Skill.update(req.params.id, req.body)
     res.redirect('/skills')
 }
-// function update(req,res){
-//     console.log(req.body)
-//     Skill.updateOne(req.params.id);
-//     res.
-// }
